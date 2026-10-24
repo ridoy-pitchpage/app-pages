@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MindMate Support</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f4f5f9;
+        --ink: #121420;
+        --muted: #6e7383;
+        --accent: #3446f2;
+        --line: rgba(18, 20, 32, 0.1);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0e1016;
+          --ink: #f1f2f7;
+          --muted: #9aa0b2;
+          --accent: #8f9cff;
+          --line: rgba(241, 242, 247, 0.12);
+        }
+      }
+      body {
+        font:
+          17px/1.6 system-ui,
+          -apple-system,
+          sans-serif;
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 32px 20px 64px;
+        background: var(--bg);
+        color: var(--ink);
+      }
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 700;
+        font-size: 20px;
+        text-decoration: none;
+        color: var(--ink);
+      }
+      .brand i {
+        width: 26px;
+        height: 26px;
+        border-radius: 8px;
+        background: linear-gradient(135deg, #eeeeff, #8d82f0);
+      }
+      h1 {
+        font-size: 32px;
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+        margin: 28px 0 4px;
+      }
+      h2 {
+        font-size: 20px;
+        margin-top: 32px;
+        letter-spacing: -0.02em;
+      }
+      a {
+        color: var(--accent);
+      }
+      .muted {
+        color: var(--muted);
+        font-size: 15px;
+      }
+      ul {
+        padding-left: 22px;
+      }
+      li {
+        margin: 6px 0;
+      }
+      .help {
+        padding: 16px 18px;
+        border-radius: 16px;
+        background: rgba(240, 96, 63, 0.1);
+      }
+      footer {
+        margin-top: 48px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+      }
+    </style>
+  </head>
+  <body>
+    <a class="brand" href="support.html"><i></i>MindMate</a>
+    <h1>Support</h1>
+    <p class="muted">Check in with your mood, breathe, and keep private reflections.</p>
+
+    <div class="help">
+      <p>
+        <strong
+          >If you are in danger or thinking about ending your life, call your local emergency number
+          now.</strong
+        >
+      </p>
+      <ul>
+        <li>US and Canada: call or text <strong>988</strong></li>
+        <li>UK and Ireland: Samaritans, <strong>116 123</strong></li>
+        <li>Anywhere else: <a href="https://findahelpline.com">findahelpline.com</a></li>
+      </ul>
+      <p class="muted">
+        MindMate is a companion for everyday wellbeing and is not a substitute for professional care.
+      </p>
+    </div>
+
+    <h2>Common questions</h2>
+    <p>
+      <strong>Do I need an account?</strong><br />No. Tap <em>Sign up</em>, type a first name and you are in.
+      Everything stays on your device.
+    </p>
+    <p>
+      <strong>How do I move my journal to a new phone?</strong><br />On the old phone: tap your initial on the
+      Today screen → <em>Save a backup</em>, and save the file to Files, iCloud Drive or AirDrop it. On the
+      new phone: open MindMate → <em>Log in</em> → <em>Restore from a backup</em>.
+    </p>
+    <p>
+      <strong>I forgot my passcode.</strong><br />For your privacy the passcode can't be recovered. If you
+      saved a backup, delete and reinstall MindMate, then choose <em>Log in</em> →
+      <em>Restore from a backup</em>. Restoring opens the app; in Settings, turn the passcode off and on again
+      to choose a new one. Without a backup, reinstalling starts fresh.
+    </p>
+    <p>
+      <strong>How do I turn on Face ID?</strong><br />Set a passcode first, then turn on
+      <em>Unlock with Face ID</em> in Settings (tap your initial on the Today screen).
+    </p>
+    <p>
+      <strong>How do I get a daily reminder?</strong><br />Settings → <em>Daily check-in reminder</em>, then
+      choose a time. You'll get at most one gentle reminder a day, and none on days you've already checked in.
+    </p>
+    <p>
+      <strong>How do I delete my data?</strong><br />Settings → <em>Delete all data</em>, or delete the app.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Email <a href="mailto:ridoy@pitchpage.co">ridoy@pitchpage.co</a>. We usually reply within two working
+      days.
+    </p>
+
+    <footer class="muted"><a href="privacy.html">Privacy Policy</a> · © 2026 Mahbub Alam Ridoy</footer>
+  </body>
+</html>
