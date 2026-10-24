@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fireflies Support</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #050a18;
+        --panel: #0e1830;
+        --ink: #eef0f6;
+        --muted: #9fa8c0;
+        --accent: #ffd36b;
+        --line: rgba(238, 240, 246, 0.12);
+      }
+      body {
+        font: 17px/1.6 system-ui, -apple-system, sans-serif;
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 32px 20px 64px;
+        background: radial-gradient(circle at 50% 0, #13234a 0, var(--bg) 480px) no-repeat, var(--bg);
+        color: var(--ink);
+      }
+      .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; color: var(--ink); text-decoration: none; }
+      .brand i { width: 22px; height: 22px; border-radius: 50%; background: radial-gradient(circle, #fff6cf 0, #ffd36b 40%, rgba(255, 200, 90, 0) 72%); box-shadow: 0 0 18px #ffc85799; }
+      h1 { font-size: 32px; line-height: 1.15; letter-spacing: -0.02em; margin: 28px 0 4px; }
+      h2 { font-size: 20px; margin-top: 32px; }
+      .date { color: var(--muted); margin: 0 0 24px; }
+      .contact { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 16px 20px; }
+      .contact a { font-weight: 700; font-size: 19px; }
+      ul { padding-left: 20px; }
+      li { margin: 6px 0; }
+      a { color: var(--accent); }
+      footer { margin-top: 48px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+    </style>
+  </head>
+  <body>
+    <a class="brand" href="support.html"><i></i>Fireflies</a>
+    <h1>Support</h1>
+    <p class="date">Last updated 24 October 2026</p>
+
+    <div class="contact">
+      <p>Found a bug, stuck on a puzzle, or have an idea? Write to us, we read everything:</p>
+      <p><a href="mailto:ridoy@pitchpage.co">ridoy@pitchpage.co</a></p>
+    </div>
+
+    <h2>How to play</h2>
+    <ul>
+      <li>Tap a dark square to place a firefly. Its light shines along the row and column until it meets a wall.</li>
+      <li>Two fireflies must never shine on each other.</li>
+      <li>A number on a wall says how many fireflies touch it (above, below, left and right). A 0 means none.</li>
+      <li>Light every square to solve the puzzle. Tap a square again to mark it with a dot ("no firefly here"), and once more to clear it.</li>
+      <li>The tutorial is always there: the question mark on the home screen, or Settings, then How to play.</li>
+    </ul>
+
+    <h2>Common questions</h2>
+    <p><strong>What are hearts and tries?</strong> Each journey level gives 3 tries; a firefly that breaks a rule costs one. Running out of tries uses a heart. Hearts come back by themselves, one every 30 minutes, and the daily puzzle is always free. There is nothing to buy.</p>
+    <p><strong>Do I need an account?</strong> No. Everything works without one, offline. Signing in with your email is optional and lets you back up your progress, play on another device and add friends.</p>
+    <p><strong>How do I move my progress to a new phone?</strong> Sign in on the old phone (the account button on the home screen), wait for "Progress backed up", then sign in with the same email on the new phone.</p>
+    <p><strong>How do I add a friend?</strong> Open Friends, share your friend code, or type in theirs and tap Add.</p>
+    <p><strong>How do I delete my account?</strong> Tap the account button on the home screen, then Delete account. Your account and online data are removed straight away; progress on your device stays.</p>
+    <p><strong>Can I turn off sound or vibration?</strong> Yes, in Settings.</p>
+
+    <h2>Privacy</h2>
+    <p>No ads, no analytics, no tracking. Read the full <a href="privacy.html">privacy policy</a>.</p>
+
+    <footer>Fireflies · <a href="privacy.html">Privacy Policy</a></footer>
+  </body>
+</html>
